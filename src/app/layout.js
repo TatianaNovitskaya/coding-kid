@@ -2,7 +2,7 @@ import {Inter} from 'next/font/google'
 import './globals.css'
 import Header from "@/components/Header";
 
-const inter = Inter({subsets: ['latin']})
+const inter = Inter({subsets: ['latin'], weight:["400", "500", "700", "800"]})
 
 export const metadata = {
     title: 'Create Next App',
