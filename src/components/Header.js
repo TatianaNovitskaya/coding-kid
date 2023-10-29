@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Header() {
     return (
         <>
-            <header className={"fixed top-0 left-0 right-0"}>
+            <header className={"fixed top-0 left-0 right-0 backdrop-blur-sm z-50"}>
                 <div className={"container mx-auto flex justify-between items-center py-[2.62rem]"}>
                     <div className="flex items-center">
                         <p className={"text-[#00235C] font-extrabold text-[1.41rem] bg-white leading-[1.10rem] tracking-[.028rem] p-[0.59rem]"}>KC</p>
