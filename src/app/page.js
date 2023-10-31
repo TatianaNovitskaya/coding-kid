@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import MainSection from "@/components/sections/MainSection";
-import LogicalSection from "@/components/sections/LogicalSection";
+import WhyWeSection from "@/components/sections/WhyWeSection";
 
 export default function Home() {
     return (
         <main>
             <MainSection/>
-            <LogicalSection/>
+            <WhyWeSection/>
         </main>
     )
 }
