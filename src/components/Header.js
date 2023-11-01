@@ -13,7 +13,7 @@ export default function Header() {
                     <nav>
                         <ul className={"flex text-white text-base font-medium"}>
                             <li><Link href={"#"} className={"mr-[5.75rem] hover:font-extrabold"}>Home</Link></li>
-                            <li><Link href={"#"} className={"mr-[5.75rem] hover:font-extrabold"}>Class</Link></li>
+                            <li><Link href={"#"} className={"mr-[5.75rem] hover:font-extrabold"}>Programs</Link></li>
                             <li><Link href={"#"} className={"mr-[5.75rem] hover:font-extrabold"}>Our activity</Link>
                             </li>
                             <li><Link href={"#"} className={"mr-[5.75rem] hover:font-extrabold"}>Contact us</Link></li>
