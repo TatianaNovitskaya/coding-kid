@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function WhyWeSection() {
     return (
         <>
-            <section id={"home"} className={""}>
+            <section id={"why-we"} className={""}>
                 <div className={"container mx-auto flex justify-between items-center py-[5.62rem]"}>
                     <div className={"w-ful text-center  text-[#00235C]"}>
                         <h2 className={"text-[3rem] leading-[3.75rem] font-extrabold"}>Why Choose Kids' Coding

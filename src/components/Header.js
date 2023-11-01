@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function Header() {
     return (
         <>
-            <header className={"fixed top-0 left-0 right-0 backdrop-blur-sm z-50"}>
-                <div className={"container mx-auto flex justify-between items-center py-[2.62rem]"}>
+            <header className={"fixed top-0 left-0 right-0 bg-[#116CFF] backdrop-blur-sm z-50"}>
+                <div className={"container mx-auto flex justify-between items-center py-[1rem]"}>
                     <div className="flex items-center">
                         <p className={"text-[#00235C] font-extrabold text-[1.41rem] bg-white leading-[1.10rem] tracking-[.028rem] p-[0.59rem]"}>KCA</p>
                         <span
@@ -12,11 +12,10 @@ export default function Header() {
                     </div>
                     <nav>
                         <ul className={"flex text-white text-base font-medium"}>
-                            <li><Link href={"#"} className={"mr-[5.75rem] hover:font-extrabold"}>Home</Link></li>
-                            <li><Link href={"#"} className={"mr-[5.75rem] hover:font-extrabold"}>Programs</Link></li>
-                            <li><Link href={"#"} className={"mr-[5.75rem] hover:font-extrabold"}>Our activity</Link>
-                            </li>
-                            <li><Link href={"#"} className={"mr-[5.75rem] hover:font-extrabold"}>Contact us</Link></li>
+                            <li><Link href={"#home"} className={"mr-[5.75rem] hover:font-extrabold"}>Home</Link></li>
+                            <li><Link href={"#why-we"} className={"mr-[5.75rem] hover:font-extrabold"}>Why We</Link></li>
+                            <li><Link href={"#programs"} className={"mr-[5.75rem] hover:font-extrabold"}>Programs</Link></li>
+                            <li><Link href={"#contacts"} className={"mr-[5.75rem] hover:font-extrabold"}>Contact us</Link></li>
                         </ul>
                     </nav>
                     <button
