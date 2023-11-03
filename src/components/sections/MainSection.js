@@ -7,11 +7,11 @@ export default function MainSection() {
             <section id={"home"} className={"bg-[#116CFF]"}>
                 <div className={"container mx-auto px-4 flex flex-col-reverse lg:flex-row-reverse justify-between items-center py-[5.62rem] lg:py-[9.62rem]"}>
                     <div className={"w-full lg:w-1/2 text-white text-center lg:text-left"}>
-                        <h1 className={"text-[2.725rem] lg:text-[3.125rem] leading-[3rem] lg:leading-[5rem] font-extrabold"}>Welcome to Kids' Coding
+                        <h1 className={"text-[2.725rem] lg:text-[3.125rem] leading-[3rem] lg:leading-[5rem] font-extrabold"}>Welcome to Kids&apos; Coding
                             Adventure!</h1>
                         <p className={"mt-4 text-[1.25rem] lg:text-[1.5rem] leading-[2.025rem] font-medium"}>Unlock the World of
                             Creativity and Innovation through Coding</p>
-                        <p className={"mt-4 w-full lg:w-[85%] text-[1rem] leading-[1.75rem]"}>At Kids' Coding Adventure, we
+                        <p className={"mt-4 w-full lg:w-[85%] text-[1rem] leading-[1.75rem]"}>At Kids&apos; Coding Adventure, we
                             believe in empowering the next generation of innovators. Our fun and engaging coding
                             programs are designed to introduce children to the exciting world of technology and
                             programming. Join us on a journey of creativity, problem-solving, and endless

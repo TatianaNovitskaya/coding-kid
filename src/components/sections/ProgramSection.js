@@ -13,7 +13,7 @@ export default function ProgramSection() {
                     <div className="flex flex-col md:flex-row justify-between items-center py-[1rem] px-[1.5rem] bg-[#e7f0ff] hover:bg-[#cfe2ff] transition-color border-b border-[#116CFF]">
                         <div className={"w-full md:w-[30%] mb-[2rem] md:mb-0"}>
                             <p className={"text-[#00235C] text-[1.25rem] font-bold text-center md:text-left"}>Tiny Tinkerers (Ages 4-6)</p>
-                            <p className={"text-[14px] mt-[0.5rem] "}>Introduce your little ones to the world of coding with our Tiny Tinkerers program. They'll explore basic concepts in a playful, creative, and hands-on manner.</p>
+                            <p className={"text-[14px] mt-[0.5rem] "}>Introduce your little ones to the world of coding with our Tiny Tinkerers program. They&apos;ll explore basic concepts in a playful, creative, and hands-on manner.</p>
                         </div>
                         <div className={"w-full md:w-[45%] flex flex-wrap justify-center text-[#00235C]"}>
                             <div className="w-full sm:w-1/2 flex items-center">
@@ -63,7 +63,7 @@ export default function ProgramSection() {
                     <div className="flex flex-col md:flex-row justify-between items-center py-[1rem] px-[1.5rem] bg-[#e7f0ff] hover:bg-[#cfe2ff] transition-color border-b border-[#116CFF]">
                         <div className={"w-full md:w-[30%] mb-[2rem] md:mb-0"}>
                             <p className={"text-[#00235C] text-[1.25rem] font-bold text-center md:text-left"}>Junior Developers (Ages 11-14)</p>
-                            <p className={"text-[14px] mt-[0.5rem] "}>For older kids, our Junior Developers program provides a more in-depth understanding of coding. They'll create real projects, learn about algorithms, and problem-solve like pros.</p>
+                            <p className={"text-[14px] mt-[0.5rem] "}>For older kids, our Junior Developers program provides a more in-depth understanding of coding. They&apos;ll create real projects, learn about algorithms, and problem-solve like pros.</p>
                         </div>
                         <div className="w-full md:w-[45%] flex flex-wrap justify-center text-[#00235C]">
                             <div className="w-full sm:w-1/2 flex items-center">

@@ -16,7 +16,7 @@ export default function Header() {
                     <div className="flex items-center">
                         <p className={"text-[#00235C] font-extrabold text-[1.41rem] bg-white leading-[1.10rem] tracking-[.028rem] p-[0.59rem]"}>KCA</p>
                         <span
-                            className={"text-white uppercase font-extrabold block text-[0.79rem] leading-[1.10rem] tracking-[.016rem] bg-[#00235C] p-[0.59rem]"}>Kids` Coding Adventure</span>
+                            className={"text-white uppercase font-extrabold block text-[0.79rem] leading-[1.10rem] tracking-[.016rem] bg-[#00235C] p-[0.59rem]"}>Kids&apos; Coding Adventure</span>
                     </div>
 
                     <nav className={" hidden lg:block"}>

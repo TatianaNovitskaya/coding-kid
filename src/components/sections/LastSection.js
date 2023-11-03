@@ -11,11 +11,11 @@ export default function LastSection() {
                     </div>
                     <div className={"w-full lg:w-1/2 text-white text-center lg:text-left mt-[2rem] lg:mt-0"}>
                         <h2 className={"text-[2.725rem] lg:text-[3.125rem] leading-[3rem] lg:leading-[5rem] font-extrabold"}>Get Started Today!</h2>
-                        <p className={"mt-4 text-[1.5rem] leading-[2.025rem] font-medium"}>Join the Kids' Coding
+                        <p className={"mt-4 text-[1.5rem] leading-[2.025rem] font-medium"}>Join the Kids&apos; Coding
                             Adventure</p>
                         <p className={"mt-4 w-full lg:w-[85%] text-[1rem] leading-[1.75rem]"}>Ready to embark on a coding
                             adventure with us? Enroll your child today and watch them develop essential skills that will
-                            set them up for a bright future. Let's make coding a fun and rewarding experience for your
+                            set them up for a bright future. Let&apos;s make coding a fun and rewarding experience for your
                             little one!</p>
                         <button
                             className={"mr-[1.5rem] mt-[2rem] py-[0.94rem] px-[2.31rem] bg-white text-[#116CFF] font-bold rounded-[0.625rem]"}>Book

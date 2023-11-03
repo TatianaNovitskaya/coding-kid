@@ -7,7 +7,7 @@ export default function WhyWeSection() {
             <section id={"why-we"} className={""}>
                 <div className={"container mx-auto px-4 flex items-center py-[5.62rem]"}>
                     <div className={"w-ful text-center  text-[#00235C]"}>
-                        <h2 className={"text-[2.725rem] lg:text-[3rem] leading-[3.75rem] font-extrabold"}>Why Choose Kids' Coding
+                        <h2 className={"text-[2.725rem] lg:text-[3rem] leading-[3.75rem] font-extrabold"}>Why Choose Kids&apos; Coding
                             Adventure</h2>
                         <p className={"mt-4 text-[1.5rem] leading-[2.025rem] font-bold "}>Inspiring Young Minds, One
                             Line of Code at a Time</p>
@@ -33,7 +33,7 @@ export default function WhyWeSection() {
                                     <p className={"mt-4  text-[1.25rem] leading-[1rem] font-bold"}>Experienced
                                         Instructors</p>
                                     <p className={"mt-4 text-[1rem] leading-[1.25rem]"}>Our passionate instructors are not
-                                        just coders; they're mentors who guide children on their coding journey,
+                                        just coders; they&apos;re mentors who guide children on their coding journey,
                                         fostering critical thinking and problem-solving skills.</p>
                                 </div>
                             </div>
