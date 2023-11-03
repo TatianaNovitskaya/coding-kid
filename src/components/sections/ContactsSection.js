@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function ContactsSection() {
     return (
         <>
-            <section id={"contacts"} className={""}>
+            <section id={"contacts"} className={"overflow-hidden"}>
                 <div className={"container mx-auto px-4 py-[5.62rem] relative"}>
                     <Image src={"/stars-yellow.png"} alt={"yellow-stars"} width={371} height={492} className={"absolute top-[1rem] left-[50%]"}/>
                     <div className={"w-full lg:w-[50%] mx-auto text-center  text-[#00235C] relative z-10"}>
