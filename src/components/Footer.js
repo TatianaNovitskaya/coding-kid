@@ -72,10 +72,10 @@ export default function Footer() {
                             </ul>
                         </nav>
                     </div>
-                    <div className="flex items-center text-white absolute right-[1rem] bottom-[1rem] z-10 mt-[1.5rem]">
+                    <div className="flex items-center text-white absolute left-[50%] -translate-x-1/2 bottom-[1rem] z-10 mt-[1.5rem]">
                         <p className={"text-[13px]"}>created by</p>
-                        <Link href={""} className={"block ml-[0.75rem]"}>
-                            <Image src={"/novixweb.jpg"} alt={"novixweb"} width={111} height={75}/>
+                        <Link href={"https://www.novixweb.com/"} className={"block ml-[0.75rem] font-semibold text-base"}>
+                            NovixWeb
                         </Link>
                     </div>
                 </div>

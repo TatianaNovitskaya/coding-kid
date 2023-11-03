@@ -9,7 +9,7 @@ export default function ProgramSection() {
                     <h2 className={"text-[2.725rem] lg:text-[3rem] leading-[3.75rem] font-extrabold"}>Our Coding Programs</h2>
                     <p className={"mt-4 text-[1.5rem] leading-[2.025rem] font-bold "}>From Beginner to Coding Pro</p>
                 </div>
-                <div className={"mx-auto md:w-full w-[80%]  xl:w-[80%] border rounded mt-4"}>
+                <div className={"mx-auto md:w-full w-[90%]  xl:w-[80%] border rounded mt-4"}>
                     <div className="flex flex-col md:flex-row justify-between items-center py-[1rem] px-[1.5rem] bg-[#e7f0ff] hover:bg-[#cfe2ff] transition-color border-b border-[#116CFF]">
                         <div className={"w-full md:w-[30%] mb-[2rem] md:mb-0"}>
                             <p className={"text-[#00235C] text-[1.25rem] font-bold text-center md:text-left"}>Tiny Tinkerers (Ages 4-6)</p>

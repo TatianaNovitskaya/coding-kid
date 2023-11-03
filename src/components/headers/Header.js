@@ -33,9 +33,9 @@ export default function Header() {
                                 className="HAMBURGER-ICON space-y-2"
                                 onClick={toggleMenu}
                             >
-                                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-                                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-                                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+                                <span className="block h-1 rounded w-8 animate-pulse bg-white"></span>
+                                <span className="block h-1 rounded w-8 animate-pulse bg-white"></span>
+                                <span className="block h-1 rounded w-8 animate-pulse bg-white"></span>
                             </div>
 
                             <div className={isNavOpen ? styles.showMenuNav : styles.hideMenuNav}>
@@ -43,8 +43,8 @@ export default function Header() {
                                     <svg
                                         className="h-8 w-8 text-gray-600"
                                         viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
+                                        fill="#ffffff"
+                                        stroke="#ffffff"
                                         strokeWidth="2"
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
@@ -54,10 +54,10 @@ export default function Header() {
                                     </svg>
                                 </div>
                                 <nav className="flex text-white flex-col items-center justify-between">
-                                    <Link href="/#home" className={"text-3xl my-3"} onClick={toggleMenu}>Home</Link>
-                                    <Link href="/#why-we" className={"text-3xl my-3"} onClick={toggleMenu}>Why We</Link>
-                                    <Link href="/#programs" className={"text-3xl my-3"} onClick={toggleMenu}>Programs</Link>
-                                    <Link href="/#contacts" className={"text-3xl my-3"} onClick={toggleMenu}>Contact Us</Link>
+                                    <Link href="/#home" className={"text-xl my-2"} onClick={toggleMenu}>Home</Link>
+                                    <Link href="/#why-we" className={"text-xl my-2"} onClick={toggleMenu}>Why We</Link>
+                                    <Link href="/#programs" className={"text-xl my-2"} onClick={toggleMenu}>Programs</Link>
+                                    <Link href="/#contacts" className={"text-xl my-2"} onClick={toggleMenu}>Contact Us</Link>
                                 </nav>
                             </div>
                         </section>
