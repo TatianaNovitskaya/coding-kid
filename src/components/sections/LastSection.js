@@ -5,15 +5,15 @@ export default function LastSection() {
     return (
         <>
             <section id={"home"} className={"bg-[#116CFF]"}>
-                <div className={"container mx-auto flex justify-between items-center py-[5.62rem]"}>
-                    <div className={"w-[45%]"}>
-                        <Image src={"/svg/undraw_remotely.svg"} alt={"remote"} width={632} height={387}/>
+                <div className={"container px-4 mx-auto flex flex-col lg:flex-row justify-between items-center py-[5.62rem]"}>
+                    <div className={"w-full lg:w-[45%]"}>
+                        <Image src={"/svg/undraw_remotely.svg"} alt={"remote"} width={632} height={387} className={"mx-auto"}/>
                     </div>
-                    <div className={"w-1/2 text-white"}>
-                        <h2 className={" text-[3.125rem] leading-[5rem] font-extrabold"}>Get Started Today!</h2>
+                    <div className={"w-full lg:w-1/2 text-white text-center lg:text-left mt-[2rem] lg:mt-0"}>
+                        <h2 className={"text-[2.725rem] lg:text-[3.125rem] leading-[3rem] lg:leading-[5rem] font-extrabold"}>Get Started Today!</h2>
                         <p className={"mt-4 text-[1.5rem] leading-[2.025rem] font-medium"}>Join the Kids' Coding
                             Adventure</p>
-                        <p className={"mt-4 w-[85%] text-[1rem] leading-[1.75rem]"}>Ready to embark on a coding
+                        <p className={"mt-4 w-full lg:w-[85%] text-[1rem] leading-[1.75rem]"}>Ready to embark on a coding
                             adventure with us? Enroll your child today and watch them develop essential skills that will
                             set them up for a bright future. Let's make coding a fun and rewarding experience for your
                             little one!</p>

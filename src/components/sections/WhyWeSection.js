@@ -5,13 +5,13 @@ export default function WhyWeSection() {
     return (
         <>
             <section id={"why-we"} className={""}>
-                <div className={"container mx-auto flex justify-between items-center py-[5.62rem]"}>
+                <div className={"container mx-auto px-4 flex items-center py-[5.62rem]"}>
                     <div className={"w-ful text-center  text-[#00235C]"}>
-                        <h2 className={"text-[3rem] leading-[3.75rem] font-extrabold"}>Why Choose Kids' Coding
+                        <h2 className={"text-[2.725rem] lg:text-[3rem] leading-[3.75rem] font-extrabold"}>Why Choose Kids' Coding
                             Adventure</h2>
                         <p className={"mt-4 text-[1.5rem] leading-[2.025rem] font-bold "}>Inspiring Young Minds, One
                             Line of Code at a Time</p>
-                        <div className={"grid grid-cols-3 gap-20 mt-20 "}>
+                        <div className={"grid grid-cols-1 gap-10  md:grid-cols-3 lg:gap-20 mt-20 "}>
                             <div className={"flex flex-col items-center"}>
                                 <Image src={"/svg/plan-svgrepo-com.svg"} alt={"open code"} width={40} height={40}
                                        className={"mr-5"}/>

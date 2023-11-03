@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <>
             <header className={" bg-[#00235C]"}>
-                <div className={"container mx-auto flex justify-between items-center py-[5.5rem] relative"}>
+                <div className={"container px-4 mx-auto flex flex-col lg:flex-row justify-between items-center py-[5.5rem] relative"}>
                     <Image src={"/stars.png"} alt={"stars"} width={363} height={471}
                            className={"absolute top-0 left-0"}/>
                     <div className="z-10">
@@ -38,7 +38,7 @@ export default function Footer() {
                             </Link>
                         </div>
                     </div>
-                    <nav>
+                    <nav className={"hidden lg:block"}>
                         <ul className={"flex text-white text-base "}>
                             <li className={"mr-[5.75rem]"}><Link href={"#home"} className={"text-[#116CFF] text-[1.125rem] font-medium"}>Company</Link>
                                 <ul>
@@ -54,7 +54,7 @@ export default function Footer() {
                                     <li className={"mt-[1.28rem]"}><Link href={"#programs"}>Expert Class</Link></li>
                                 </ul>
                             </li>
-                            <li className={"mr-[5.75rem]"}><Link href={"#contacts"} className={"text-[#116CFF] text-[1.125rem] font-medium"}>Information</Link>
+                            <li className={"lg:mr-0 mr-[5.75rem]"}><Link href={"#contacts"} className={"text-[#116CFF] text-[1.125rem] font-medium"}>Information</Link>
                                 <ul>
                                     <li className={"mt-[1.28rem]"}><Link href={"#programs"}>Registration</Link></li>
                                     <li className={"mt-[1.28rem]"}><Link href={"#programs"}>Free Trial Class</Link></li>
