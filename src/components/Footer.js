@@ -23,17 +23,14 @@ export default function Footer() {
                                 </address>
                             </div>
                             <div className="flex items-center">
-                                <Link href={"https://www.instagram.com/"}>
-                                    <Image src={"/svg/instagram.svg"} alt={"instagram"} width={24} height={24}
-                                           className={"mr-[2rem]"}/>
+                                <Link href={"https://www.instagram.com/"}  className={"mr-[2rem]"}>
+                                    <Image src={"/svg/instagram.svg"} alt={"instagram"} width={24} height={24}/>
                                 </Link>
-                                <Link href={"https://www.youtube.com/"}>
-                                    <Image src={"/svg/youtube.svg"} alt={"youtube"} width={24} height={24}
-                                           className={"mr-[2rem]"}/>
+                                <Link href={"https://www.youtube.com/"} className={"mr-[2rem]"}>
+                                    <Image src={"/svg/youtube.svg"} alt={"youtube"} width={24} height={24}/>
                                 </Link>
-                                <Link href={"https://www.facebook.com/"}>
-                                    <Image src={"/svg/facebook.svg"} alt={"facebook"} width={24} height={24}
-                                           className={"mr-[2rem]"}/>
+                                <Link href={"https://www.facebook.com/"} className={"mr-[2rem]"}>
+                                    <Image src={"/svg/facebook.svg"} alt={"facebook"} width={24} height={24}/>
                                 </Link>
                                 <Link href={"https://www.google.com/"}>
                                     <Image src={"/svg/google.svg"} alt={"google"} width={24} height={24}/>
@@ -73,8 +70,8 @@ export default function Footer() {
                         </nav>
                     </div>
                     <div className="flex items-center text-white absolute left-[50%] -translate-x-1/2 bottom-[1rem] z-10 mt-[1.5rem]">
-                        <p className={"text-[13px]"}>created by</p>
-                        <Link href={"https://www.novixweb.com/"} className={"block ml-[0.75rem] font-semibold text-base"}>
+                        <p className={"text-[13px] mr-[0.75rem]"}>created by</p>
+                        <Link href={"https://www.novixweb.com/"} className={"block font-semibold text-base"}>
                             NovixWeb
                         </Link>
                     </div>
