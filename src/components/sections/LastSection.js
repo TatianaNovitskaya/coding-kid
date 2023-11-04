@@ -17,10 +17,10 @@ export default function LastSection() {
                             adventure with us? Enroll your child today and watch them develop essential skills that will
                             set them up for a bright future. Let&apos;s make coding a fun and rewarding experience for your
                             little one!</p>
-                        <button
-                            className={"mr-[1.5rem] mt-[2rem] py-[0.94rem] px-[2.31rem] bg-white text-[#116CFF] font-bold rounded-[0.625rem]"}>Book
+                        <Link href={"/#contacts"}
+                            className={"mr-[1.5rem] inline-block mt-[2rem] py-[0.94rem] px-[2.31rem] bg-white text-[#116CFF] font-bold rounded-[0.625rem]"}>Book
                             a Class
-                        </button>
+                        </Link>
                     </div>
                 </div>
 
