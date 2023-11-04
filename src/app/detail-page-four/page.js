@@ -16,7 +16,7 @@ export default function DetailPageFour() {
                         <div className="w-[55%]">
                             <p>Curious to see what Kids&apos; Coding Adventure is all about? We offer a FREE TRIAL CLASS to
                                 help you and your child experience our coding programs firsthand. It&apos;s a fantastic way
-                                to get a taste of our curriculum and see how engaging and fun our classes are. There's
+                                to get a taste of our curriculum and see how engaging and fun our classes are. There&apos;s
                                 no commitment required for the trial class – it&apos;s an opportunity for your child to
                                 explore the exciting world of coding!</p>
                             <p className={"font-bold mt-[2.5rem]"}>Book a free trial class today and watch your child take their first step into the amazing world of coding.</p>
