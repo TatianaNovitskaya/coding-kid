@@ -21,10 +21,10 @@ export default function Header() {
 
                     <nav className={" hidden lg:block"}>
                         <ul className={"flex text-white text-base font-medium"}>
-                            <li><Link href={"#home"} className={"lg:mr-[3rem] xl:mr-[5.75rem] hover:font-extrabold"}>Home</Link></li>
-                            <li><Link href={"#why-we"} className={"lg:mr-[3rem] xl:mr-[5.75rem] hover:font-extrabold"}>Why We</Link></li>
-                            <li><Link href={"#programs"} className={"lg:mr-[3rem] xl:mr-[5.75rem] hover:font-extrabold"}>Programs</Link></li>
-                            <li><Link href={"#contacts"} className={"lg:mr-[3rem] xl:mr-[5.75rem] hover:font-extrabold"}>Contact us</Link></li>
+                            <li><Link href={"/#home"} className={"lg:mr-[3rem] xl:mr-[5.75rem] hover:font-extrabold"}>Home</Link></li>
+                            <li><Link href={"/#why-we"} className={"lg:mr-[3rem] xl:mr-[5.75rem] hover:font-extrabold"}>Why We</Link></li>
+                            <li><Link href={"/#programs"} className={"lg:mr-[3rem] xl:mr-[5.75rem] hover:font-extrabold"}>Programs</Link></li>
+                            <li><Link href={"/#contacts"} className={"lg:mr-[3rem] xl:mr-[5.75rem] hover:font-extrabold"}>Contact us</Link></li>
                         </ul>
                     </nav>
                     <div className={'lg:hidden'}>
