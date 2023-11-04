@@ -33,7 +33,7 @@ export default function ProgramSection() {
                                 <span>Online/Offline Meeting</span>
                             </div>
                         </div>
-                        <button className={"mt-[2rem] md:mt-0 block py-[0.81rem] px-[0.94rem] lg:py-[0.81rem] lg:px-[1.25rem] bg-[#116CFF] text-white font-bold rounded-[0.625rem]"}>Detail Class</button>
+                        <Link href={"/detail-page-one"} className={"mt-[2rem] md:mt-0 block py-[0.81rem] px-[0.94rem] lg:py-[0.81rem] lg:px-[1.25rem] bg-[#116CFF] text-white font-bold rounded-[0.625rem]"}>Detail Class</Link>
                     </div>
                     <div className="flex flex-col md:flex-row  justify-between items-center py-[1rem] px-[1.5rem] bg-[#e7f0ff] hover:bg-[#cfe2ff] transition-color border-b border-[#116CFF]">
                         <div className={"w-full md:w-[30%] mb-[2rem] md:mb-0"}>
@@ -58,7 +58,7 @@ export default function ProgramSection() {
                                 <span>Online/Offline Meeting</span>
                             </div>
                         </div>
-                        <button className={"mt-[2rem] md:mt-0 block py-[0.81rem] px-[0.94rem] lg:py-[0.81rem] lg:px-[1.25rem] bg-[#116CFF] text-white font-bold rounded-[0.625rem]"}>Detail Class</button>
+                        <Link href={"/detail-page-two"} className={"mt-[2rem] md:mt-0 block py-[0.81rem] px-[0.94rem] lg:py-[0.81rem] lg:px-[1.25rem] bg-[#116CFF] text-white font-bold rounded-[0.625rem]"}>Detail Class</Link>
                     </div>
                     <div className="flex flex-col md:flex-row justify-between items-center py-[1rem] px-[1.5rem] bg-[#e7f0ff] hover:bg-[#cfe2ff] transition-color border-b border-[#116CFF]">
                         <div className={"w-full md:w-[30%] mb-[2rem] md:mb-0"}>
@@ -83,7 +83,7 @@ export default function ProgramSection() {
                                 <span>Online/Offline Meeting</span>
                             </div>
                         </div>
-                        <button className={"mt-[2rem] md:mt-0 block py-[0.81rem] px-[0.94rem] lg:py-[0.81rem] lg:px-[1.25rem] bg-[#116CFF] text-white font-bold rounded-[0.625rem]"}>Detail Class</button>
+                        <Link href={"/detail-page-three"} className={"mt-[2rem] md:mt-0 block py-[0.81rem] px-[0.94rem] lg:py-[0.81rem] lg:px-[1.25rem] bg-[#116CFF] text-white font-bold rounded-[0.625rem]"}>Detail Class</Link>
                     </div>
                     <div className="flex flex-col md:flex-row justify-between items-center py-[1rem] px-[1.5rem] bg-[#e7f0ff] hover:bg-[#cfe2ff] transition-color">
                         <div className={"w-full md:w-[30%] mb-[2rem] md:mb-0"}>
@@ -107,7 +107,7 @@ export default function ProgramSection() {
                                 <span>Online/Offline Meeting</span>
                             </div>
                         </div>
-                        <button className={"mt-[2rem] md:mt-0 block py-[0.81rem] px-[0.94rem] lg:py-[0.81rem] lg:px-[1.25rem] bg-[#116CFF] text-white font-bold rounded-[0.625rem]"}>Detail Class</button>
+                        <Link href={"/detail-page-four"} className={"mt-[2rem] md:mt-0 block py-[0.81rem] px-[0.94rem] lg:py-[0.81rem] lg:px-[1.25rem] bg-[#116CFF] text-white font-bold rounded-[0.625rem]"}>Detail Class</Link>
                     </div>
                 </div>
 
