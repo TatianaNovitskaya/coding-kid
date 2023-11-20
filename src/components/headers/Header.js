@@ -62,9 +62,6 @@ export default function Header() {
                             </div>
                         </section>
                     </div>
-                    <button
-                        className={"hidden lg:block py-[0.62rem] px-[1.88rem] bg-white text-[#116CFF] font-bold rounded-[0.625rem]"}>Login
-                    </button>
                 </div>
             </header>
         </>
