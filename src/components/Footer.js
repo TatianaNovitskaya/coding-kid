@@ -22,20 +22,6 @@ export default function Footer() {
                                           className={"mt-[1.88rem] block"}>webmaster@somedomain.com</Link>
                                 </address>
                             </div>
-                            <div className="flex items-center">
-                                <Link href={"https://www.instagram.com/"}  className={"mr-[2rem]"}>
-                                    <Image src={"/svg/instagram.svg"} alt={"instagram"} width={24} height={24}/>
-                                </Link>
-                                <Link href={"https://www.youtube.com/"} className={"mr-[2rem]"}>
-                                    <Image src={"/svg/youtube.svg"} alt={"youtube"} width={24} height={24}/>
-                                </Link>
-                                <Link href={"https://www.facebook.com/"} className={"mr-[2rem]"}>
-                                    <Image src={"/svg/facebook.svg"} alt={"facebook"} width={24} height={24}/>
-                                </Link>
-                                <Link href={"https://www.google.com/"}>
-                                    <Image src={"/svg/google.svg"} alt={"google"} width={24} height={24}/>
-                                </Link>
-                            </div>
                         </div>
                         <nav className={"hidden lg:block"}>
                             <ul className={"flex text-white text-base "}>
